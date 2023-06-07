@@ -41,3 +41,11 @@ function sumArray(arr){
 }
 
 console.log(sumArray([2,4,5]))
+
+//5.
+
+const multiplyArray = (arr) => {
+  return arr.reduce((acc,val) => acc * val,1)
+}
+
+console.log(multiplyArray([2,4,5]))
