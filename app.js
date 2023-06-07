@@ -68,3 +68,20 @@ const reverseString = (str) => {
 }
 
 console.log(reverseString('Damola'))
+
+//8.
+
+function longestStingInArray(arr){
+  let itemLength = 0
+  let arrayItem = 'd'
+  arr.forEach(item => {
+    if (item.length > itemLength) {
+      itemLength = item.length
+      arrayItem = item
+    }
+   
+  })
+  return arrayItem
+}
+
+console.log(longestStingInArray(['mouse', 'eagle', 'dog', 'elephant']))
