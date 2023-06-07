@@ -19,3 +19,17 @@ if(num1>num2&&num2>num3){
 }
 
 console.log(maxOfThree(5,9,2))
+
+//3.
+
+const isCharAVowel = (char) => {
+ const vowels = ['a','e','i','o','u']
+ let charx = char.toLowerCase()
+ if(vowels.includes(charx)){
+  return true;
+ } else {
+  return false;
+ }
+}
+
+console.log(isCharAVowel('e'))
