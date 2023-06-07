@@ -33,3 +33,11 @@ const isCharAVowel = (char) => {
 }
 
 console.log(isCharAVowel('e'))
+
+//4.
+
+function sumArray(arr){
+  return arr.reduce((acc,val) => acc + val,0)
+}
+
+console.log(sumArray([2,4,5]))
