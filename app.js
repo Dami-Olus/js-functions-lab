@@ -53,7 +53,7 @@ console.log(multiplyArray([2,4,5]))
 //6.
 
 function numArgs(arg){
-  return arg.length
+  return arguments.length
 }
 
 console.log(numArgs(2,3,5,6,7))
