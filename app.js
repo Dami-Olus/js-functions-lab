@@ -57,3 +57,14 @@ function numArgs(arg){
 }
 
 console.log(numArgs(2,3,5,6,7))
+
+//7.
+
+const reverseString = (str) => {
+  let strArr = str.split('');
+  strArr.reverse();
+  let result = strArr.join('');
+  return result;
+}
+
+console.log(reverseString('Damola'))
